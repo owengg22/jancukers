@@ -1,0 +1,13 @@
+# Mengabaikan file temporary / lock KiCad (muncul pas file lagi dibuka)
+*.lck
+~*
+
+# Mengabaikan folder backup otomatis KiCad
+*-backups/
+
+# Mengabaikan folder riwayat lokal (yang bikin error tadi)
+.history/
+.vscode/
+
+# Mengabaikan pengaturan tampilan user lokal (biar gak bentrok kalau kerja tim)
+*.kicad_prl
